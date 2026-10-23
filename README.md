@@ -1,50 +1,62 @@
 # Solar Power Install Website
 
-Installation website for **SOLAR HE and Sons**. Fil Solar Depot sells the panels; this site is where customers book installation. Fil Solar Depot's "Installation" card and FAQ will link here.
+Installation website for **SOLAR HE and Sons**. Fil Solar Depot sells the panels; this site is where customers book installation.
 
+- **Live:** https://totoantonio.github.io/solarpowerinstall/
+- **Repo:** https://github.com/totoantonio/solarpowerinstall
 - **Sister site:** Fil Solar Depot → https://totoantonio.github.io/websiteproject/ (source: `Documents/Fil Solar Depot Website`)
-- **Hosting:** TBA (GitHub Pages, new repo)
-- **Credit:** totoantonio.cloud (hidden in page meta, same as Fil Solar Depot)
+- **Credit:** totoantonio.cloud (hidden in page meta: `designer`, `creator`, HTML comment)
 
-## Theme source
-Brand flyer: "Power your home with SOLAR POWER." Everything below is taken from it.
+## Stack
+One `index.html` (styles + script inside) and `images/`. No framework, no build step. Font: Poppins (Google Fonts).
 
-### Colors (approximate from photo, confirm with the logo file)
+## Files
+- `index.html` — the whole site
+- `images/installer.jpg` — hero photo (free Pexels photo 8853504, replace with the real team)
+- `images/og.png` — 1200×630 share preview image
+- `images/favicon.svg`, `images/apple-touch-icon.png` — site icons
+- `images/pagibig.svg`, `sss.svg`, `homecredit.png`, `gcash.svg` — "We Accept" logos (Wikimedia Commons)
+- `images/surigao.png` — City of Surigao seal (Wikimedia Commons), sample client logo
+
+## Preview and publish
+- Preview: `open index.html`
+- Publish: commit and push to `main`; GitHub Pages rebuilds in about a minute.
+- Facebook link preview cached? Use developers.facebook.com/tools/debug → Scrape Again.
+
+## Theme (from the brand flyer)
 | Use | Color | Hex |
 |---|---|---|
-| Primary, logo "SOLAR", "SOLAR POWER." | Deep green | `#2F7D5B` |
-| Headline text "Power your home" | Slate navy | `#2E3A4F` |
+| Primary, "SOLAR POWER." | Deep green | `#2F7D5B` |
+| Headlines | Slate navy | `#2E3A4F` |
 | Sun, accents | Sun orange | `#F6A21E` |
-| Highlight bar ("Call us!", underline) | Bright yellow | `#F5D33B` |
-| Phone pill, backgrounds | White | `#FFFFFF` |
-| Hero sky | Soft blue → sunset gold gradient | `#BFD9F2` → `#F7B04A` |
+| Highlights, phone-bar Call button | Bright yellow | `#F5D33B` |
+| Hero sky | Blue → sunset gold gradient | `#CFE3F5` → `#F8C77A` |
 
-### Fonts
-- Headlines: heavy, slanted, rounded sans (flyer style). Web match: **Poppins ExtraBold/Black Italic** (Google Fonts).
-- Body: Poppins Regular/Medium.
+Headlines: Poppins Black Italic, highlighted word in green (yellow on the green booking section). Body: Poppins Regular.
 
-### Look and feel
-- Big bold italic headline, key words in green ("SOLAR POWER.").
-- Sun-and-panel logo with "SOLAR" and a small "HE and Sons" tag (the "and" in a green box).
-- Photo of a smiling installer in a hard hat holding a panel; rooftop panels at sunset.
-- Rounded pill buttons; yellow bar behind "Call us!"; white phone pill with a green phone icon.
-- Main call to action: **Call us! 0918 717 1111**
+## Page sections
+1. Hero: headline, photo fading into the sky gradient, Book / Call buttons, "We Accept" logos (Pag-IBIG, SSS, Home Credit, GCash) level with the buttons; phones: text right-aligned, full-width buttons
+2. Stats strip: TESDA, 50 Yrs, 1–3 Days, 500+
+3. Why Homeowners and Businesses Choose Solar Power Install (4 cards)
+4. Backed by HE & SONS + "#1 Top Solar Installer" panel
+5. Our Services (6 cards)
+6. How It Works (4 steps)
+7. Book Your Installation form + contact details
+8. FAQ
+9. Trusted By: gray client logos, not clickable
+10. Footer; phone bottom bar (Call Us / Book Now)
 
-## Planned sections
-1. Hero: headline, installer photo, Call Us button
-2. Services: site survey, installation, wiring and testing, net metering help, maintenance
-3. How It Works: book → survey → install → power on
-4. TESDA-trained team
-5. Booking form (name, address, mobile, email, panels bought from Fil Solar Depot?, target date)
-6. FAQ
-7. Footer: phone, email, address, link to Fil Solar Depot
+Cards rise in on scroll and lift on hover. Layout checked from 320px to 1440px wide with no sideways overflow.
 
-## Need from the company
-- Logo file (SVG or high-res PNG)
-- Installer photo(s) we have rights to use (the flyer photo may be stock)
-- Email, address, service area, hours (draft uses install@solarheandsons.com, Cagayan de Oro City, Mon–Sat 8 AM–5 PM)
-- "500+ Systems Installed" figure (made up, marked "draft")
+## Still draft / need from the company
+- Company name: headline says "Solar Power Install", logo/title/footer say "SOLAR HE and Sons" (decide later)
+- Logo file (SVG or high-res PNG); current logo is redrawn from the flyer
+- Real installer photos we have rights to use
+- Email, address, service area, hours (draft: install@solarheandsons.com, Cagayan de Oro City, Mon–Sat 8 AM–5 PM). Also in the SEO data (JSON-LD in `<head>`), update both
+- "500+ Systems Installed" (made up, marked "draft"), "1–3 days" install time
+- Workmanship warranty term
 - Installation prices or "quote after survey"
-- Warranty on workmanship (term)
-- Draft email/address/hours are also in the SEO data (JSON-LD in <head>), update both
-- Confirm accredited/accepted payment partners shown in hero (Pag-IBIG, SSS, Home Credit). Logos from Wikimedia Commons; use official files with permission
+- Formspree ID `YOUR_FORM_ID` in the booking form (form doesn't send until set)
+- Confirm Pag-IBIG, SSS, Home Credit, GCash are really accepted; use official logo files with permission
+- Trusted By logos are SAMPLES (Surigao seal + Kibawe Farm + 8 made-up names). Replace with real clients, with permission
+- Do not mention Blu Energy

@@ -145,6 +145,12 @@
   details[open] summary::after { content: "–"; }
   details p { color: var(--gray); margin: 10px 0 0; }
 
+  #clients { padding: 56px 0 72px; border-top: 1px solid var(--line); }
+  .eyebrow { text-align: center; color: var(--gray); font-size: .85rem; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; margin: 0 0 32px; }
+  .logos { display: grid; grid-template-columns: repeat(5, 1fr); gap: 32px 24px; align-items: center; }
+  .lg { display: flex; align-items: center; justify-content: center; gap: 10px; color: #8A929B; font-weight: 700; font-size: .9rem; line-height: 1.15; filter: grayscale(1); opacity: .75; pointer-events: none; user-select: none; }
+  .lg svg { width: 30px; height: 30px; flex: none; fill: none; stroke: currentColor; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; }
+  .lg img { flex: none; }
   footer { background: var(--navy); color: #C9D2DF; padding: 48px 0 32px; font-size: .9rem; }
   footer .wrap { display: grid; grid-template-columns: 2fr 1fr 1fr; gap: 32px; }
   footer h4 { color: #fff; margin: 0 0 10px; }
@@ -165,7 +171,7 @@
     footer .wrap { grid-template-columns: 1fr; }
   }
   @media (max-width: 1024px) { .grid.g4 { grid-template-columns: repeat(2, 1fr); } }
-  @media (max-width: 700px) { .grid { grid-template-columns: repeat(2, 1fr); gap: 14px; } }
+  @media (max-width: 700px) { .logos { grid-template-columns: repeat(2, 1fr); gap: 24px 12px; } .lg { justify-content: flex-start; font-size: .85rem; } .grid { grid-template-columns: repeat(2, 1fr); gap: 14px; } }
   @media (max-width: 560px) {
     .grid, .grid.g4 { grid-template-columns: 1fr; gap: 12px; }
     .hero-copy { text-align: right; }
@@ -341,6 +347,24 @@
     <details><summary>Is the Site Survey Free?</summary><p>Yes. The site survey is free with no obligation to book.</p></details>
     <details><summary>What Warranty Do I Get?</summary><p>Our workmanship warranty covers the installation for <span class="ph">[term TBA]</span>, on top of the manufacturer warranty on your panels.</p></details>
     <details><summary>Where Do You Install?</summary><p>Cagayan de Oro and nearby areas. <span class="ph">service area TBA</span></p></details>
+  </div>
+</section>
+<section id="clients">
+  <div class="wrap">
+    <p class="eyebrow">Trusted by Homes, Farms, Businesses, and LGUs</p>
+    <!-- DRAFT: sample client logos, replace with real clients (with permission) -->
+    <div class="logos">
+      <div class="lg"><img src="images/surigao.png" alt="" width="40" height="40">City Government<br>of Surigao</div>
+      <div class="lg"><svg viewBox="0 0 24 24"><path d="M5 19c0-8 6-14 15-14 0 9-6 15-14 15"/><path d="M5 19l8-8"/></svg>Kibawe Farm</div>
+      <div class="lg"><svg viewBox="0 0 24 24"><path d="M3 11l9-7 9 7"/><path d="M5 10v10h14V10"/><path d="M10 20v-6h4v6"/></svg>Greenfield Subdivision HOA</div>
+      <div class="lg"><svg viewBox="0 0 24 24"><path d="M12 21V8"/><path d="M12 8c-3 0-4-2-4-5 3 0 4 2 4 5zm0 0c3 0 4-2 4-5-3 0-4 2-4 5zM12 14c-3 0-4-2-4-5 3 0 4 2 4 5zm0 0c3 0 4-2 4-5-3 0-4 2-4 5z"/></svg>Bukidnon Agri Cooperative</div>
+      <div class="lg"><svg viewBox="0 0 24 24"><path d="M12 2v20M3.3 7l17.4 10M3.3 17L20.7 7"/></svg>Mindanao Cold Storage</div>
+      <div class="lg"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3M5 5l2 2M17 17l2 2M5 19l2-2M17 7l2-2"/></svg>Lumbia Poultry Farms</div>
+      <div class="lg"><svg viewBox="0 0 24 24"><path d="M2 15c3 0 3-3 6-3s3 3 6 3 3-3 6-3"/><path d="M2 20c3 0 3-3 6-3s3 3 6 3 3-3 6-3"/><circle cx="16" cy="6" r="3"/></svg>Seaside Bay Resort</div>
+      <div class="lg"><svg viewBox="0 0 24 24"><path d="M4 5c3-1 6-1 8 1 2-2 5-2 8-1v14c-3-1-6-1-8 1-2-2-5-2-8-1z"/><path d="M12 6v14"/></svg>St. Joseph Academy</div>
+      <div class="lg"><svg viewBox="0 0 24 24"><path d="M3 12c4-6 11-6 15 0-4 6-11 6-15 0z"/><path d="M18 12l3-3v6z"/><circle cx="8" cy="11" r="1"/></svg>Macajalar Fishing Corp.</div>
+      <div class="lg"><svg viewBox="0 0 24 24"><path d="M4 21V5l8-3v19M12 9h8v12M7 8h2M7 12h2M7 16h2M15 13h2M15 17h2"/></svg>Northgate Commercial Center</div>
+    </div>
   </div>
 </section>
 </main>
