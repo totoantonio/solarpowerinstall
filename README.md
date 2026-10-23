@@ -46,4 +46,5 @@ Brand flyer: "Power your home with SOLAR POWER." Everything below is taken from 
 - "500+ Systems Installed" figure (made up, marked "draft")
 - Installation prices or "quote after survey"
 - Warranty on workmanship (term)
+- Draft email/address/hours are also in the SEO data (JSON-LD in <head>), update both
 - Confirm accredited/accepted payment partners shown in hero (Pag-IBIG, SSS, Home Credit). Logos from Wikimedia Commons; use official files with permission
