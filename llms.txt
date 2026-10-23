@@ -1,0 +1,27 @@
+# SOLAR HE and Sons (Solar Power Install)
+
+> Solar panel installation company in Cagayan de Oro City, Philippines. TESDA-trained installers, backed by HE & SONS, a 50-year-old Chevron Lubricants distributor. Fast, efficient, reliable installation for homes, businesses, farms, and LGUs.
+
+## Key facts
+- Service: solar panel installation, free site survey, wiring and testing, net metering assistance, maintenance and repair, system upgrades
+- Team: installers trained by TESDA (Technical Education and Skills Development Authority) in solar installation
+- Backing: HE & SONS, 50 years in business as a Chevron Lubricants distributor
+- Speed: most home systems installed in 1 to 3 days after the site survey
+- Payments accepted: Pag-IBIG, SSS, Home Credit, GCash
+- Service area: Cagayan de Oro and nearby areas, Northern Mindanao
+- Phone: 0918 717 1111 (+63 918 717 1111)
+- Email: install@solarheandsons.com
+- Hours: Monday to Saturday, 8:00 AM to 5:00 PM
+- Panels supplied by sister company Fil Solar Depot: https://totoantonio.github.io/websiteproject/
+
+## Pages
+- [Home](https://totoantonio.github.io/solarpowerinstall/): services, how it works, booking form, FAQ
+- [Book an installation](https://totoantonio.github.io/solarpowerinstall/#book)
+- [Services](https://totoantonio.github.io/solarpowerinstall/#services)
+- [FAQ](https://totoantonio.github.io/solarpowerinstall/#faq)
+
+## How it works
+1. Book online or call 0918 717 1111
+2. Free site survey and clear quote
+3. Installation, usually 1 to 3 days
+4. Power on, with ongoing support and maintenance

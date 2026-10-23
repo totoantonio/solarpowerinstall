@@ -43,7 +43,7 @@ Headlines: Poppins Black Italic, highlighted word in green (yellow on the green 
 6. How It Works (4 steps)
 7. Book Your Installation form + contact details
 8. FAQ
-9. Trusted By: gray client logos, not clickable
+9. Trusted By: gray client logos rolling left to right in one line (marquee), not clickable
 10. Footer; phone bottom bar (Call Us / Book Now)
 
 Cards rise in on scroll and lift on hover. Layout checked from 320px to 1440px wide with no sideways overflow.
@@ -60,3 +60,9 @@ Cards rise in on scroll and lift on hover. Layout checked from 320px to 1440px w
 - Confirm Pag-IBIG, SSS, Home Credit, GCash are really accepted; use official logo files with permission
 - Trusted By logos are SAMPLES (Surigao seal + Kibawe Farm + 8 made-up names). Replace with real clients, with permission
 - Do not mention Blu Energy
+
+## SEO / AI visibility
+- `llms.txt` (summary for ChatGPT, Claude, Perplexity), `robots.txt` (all search and AI bots allowed), `sitemap.xml`
+- Structured data (JSON-LD) in `<head>`: business profile + FAQ; geo tags for Cagayan de Oro
+- On github.io, robots.txt and llms.txt only count at the domain root, so they take full effect after moving to a custom domain. Until then, submit `sitemap.xml` in Google Search Console and Bing Webmaster Tools
+- Keep llms.txt and JSON-LD in sync when contact details, products or FAQ change

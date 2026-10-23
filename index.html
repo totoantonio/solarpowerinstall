@@ -1,16 +1,22 @@
 <!doctype html>
-<html lang="en">
+<html lang="en-PH">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>SOLAR HE and Sons | Solar Panel Installation</title>
-<meta name="description" content="TESDA-trained solar panel installers backed by HE &amp; SONS. Fast, efficient, reliable solar installation for homes and businesses in Cagayan de Oro. Free site survey. Call 0918 717 1111.">
+<meta name="description" content="TESDA-trained solar panel installers backed by HE &amp; SONS. Fast, efficient, reliable solar installation for homes and businesses in Cagayan de Oro. Free site survey. Call +63918 717 1111.">
 <meta name="keywords" content="solar panel installation, solar installer, Cagayan de Oro solar, TESDA solar installer, HE and Sons, solar power Philippines, net metering, Pag-IBIG, SSS, Home Credit">
 <meta name="robots" content="index, follow">
 <meta name="author" content="SOLAR HE and Sons">
 <meta name="designer" content="totoantonio.cloud">
 <meta name="creator" content="totoantonio.cloud">
 <meta name="theme-color" content="#2F7D5B">
+<meta name="geo.region" content="PH-MSR">
+<meta name="geo.placename" content="Cagayan de Oro City">
+<meta name="geo.position" content="8.4542;124.6319">
+<meta name="ICBM" content="8.4542, 124.6319">
+<link rel="alternate" type="text/plain" href="llms.txt" title="LLM summary">
+<link rel="sitemap" type="application/xml" href="sitemap.xml">
 <link rel="canonical" href="https://totoantonio.github.io/solarpowerinstall/">
 <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
@@ -29,7 +35,10 @@
 <meta name="twitter:description" content="TESDA-trained solar installers backed by HE &amp; SONS. Fast, efficient, reliable.">
 <meta name="twitter:image" content="https://totoantonio.github.io/solarpowerinstall/images/og.png">
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"LocalBusiness","name":"SOLAR HE and Sons","description":"TESDA-trained solar panel installation backed by HE & SONS.","url":"https://totoantonio.github.io/solarpowerinstall/","image":"https://totoantonio.github.io/solarpowerinstall/images/og.png","telephone":"+639187171111","email":"install@solarheandsons.com","address":{"@type":"PostalAddress","addressLocality":"Cagayan de Oro City","addressCountry":"PH"},"areaServed":"Cagayan de Oro","openingHours":"Mo-Sa 08:00-17:00","paymentAccepted":"Pag-IBIG, SSS, Home Credit"}
+{"@context":"https://schema.org","@type":"LocalBusiness","name":"SOLAR HE and Sons","description":"TESDA-trained solar panel installation backed by HE & SONS.","url":"https://totoantonio.github.io/solarpowerinstall/","image":"https://totoantonio.github.io/solarpowerinstall/images/og.png","telephone":"+639187171111","email":"install@solarheandsons.com","address":{"@type":"PostalAddress","addressLocality":"Cagayan de Oro City","addressCountry":"PH"},"areaServed":"Cagayan de Oro","openingHours":"Mo-Sa 08:00-17:00","paymentAccepted":"Pag-IBIG, SSS, Home Credit, GCash","priceRange":"₱₱","geo":{"@type":"GeoCoordinates","latitude":8.4542,"longitude":124.6319},"parentOrganization":{"@type":"Organization","name":"HE & SONS"},"knowsAbout":["Solar panel installation","Net metering","Solar maintenance"],"makesOffer":[{"@type":"Offer","itemOffered":{"@type":"Service","name":"Solar panel installation"}},{"@type":"Offer","price":"0","priceCurrency":"PHP","itemOffered":{"@type":"Service","name":"Free site survey"}}]}
+</script>
+<script type="application/ld+json">
+{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "How Long Does Installation Take?", "acceptedAnswer": {"@type": "Answer", "text": "Most home systems are installed in 1 to 3 days after the site survey. Commercial projects are scheduled after design."}}, {"@type": "Question", "name": "Are Your Installers Certified?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Our installers are trained by TESDA in solar installation and work under HE & SONS standards."}}, {"@type": "Question", "name": "Do You Install Panels I Bought Elsewhere?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. We install panels from Fil Solar Depot and other suppliers, as long as they pass our pre-install check."}}, {"@type": "Question", "name": "Is the Site Survey Free?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. The site survey is free with no obligation to book."}}, {"@type": "Question", "name": "What Warranty Do I Get?", "acceptedAnswer": {"@type": "Answer", "text": "Our workmanship warranty covers the installation for , on top of the manufacturer warranty on your panels."}}, {"@type": "Question", "name": "Where Do You Install?", "acceptedAnswer": {"@type": "Answer", "text": "Cagayan de Oro and nearby areas."}}]}
 </script>
 <!-- Website by totoantonio.cloud -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -147,7 +156,10 @@
 
   #clients { padding: 56px 0 72px; border-top: 1px solid var(--line); }
   .eyebrow { text-align: center; color: var(--gray); font-size: .85rem; font-weight: 400; letter-spacing: .08em; text-transform: uppercase; margin: 0 0 32px; }
-  .logos { display: grid; grid-template-columns: repeat(5, 1fr); gap: 32px 24px; align-items: center; }
+  .marquee { overflow: hidden; -webkit-mask-image: linear-gradient(90deg, transparent, #000 12%, #000 88%, transparent); mask-image: linear-gradient(90deg, transparent, #000 12%, #000 88%, transparent); }
+  .logos { display: flex; width: max-content; animation: roll 45s linear infinite; }
+  .lg { margin-right: 56px; white-space: nowrap; }
+  @keyframes roll { from { transform: translateX(-50%); } to { transform: none; } }
   .lg { display: flex; align-items: center; justify-content: center; gap: 10px; color: #8A929B; font-weight: 400; font-size: .9rem; line-height: 1.15; filter: grayscale(1); opacity: .75; pointer-events: none; user-select: none; }
   .lg svg { width: 30px; height: 30px; flex: none; fill: none; stroke: currentColor; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; }
   .lg img { flex: none; }
@@ -171,7 +183,7 @@
     footer .wrap { grid-template-columns: 1fr; }
   }
   @media (max-width: 1024px) { .grid.g4 { grid-template-columns: repeat(2, 1fr); } }
-  @media (max-width: 700px) { .logos { grid-template-columns: repeat(2, 1fr); gap: 24px 12px; } .lg { justify-content: flex-start; font-size: .85rem; } .grid { grid-template-columns: repeat(2, 1fr); gap: 14px; } }
+  @media (max-width: 700px) { .lg { margin-right: 40px; font-size: .85rem; } .grid { grid-template-columns: repeat(2, 1fr); gap: 14px; } }
   @media (max-width: 560px) {
     .grid, .grid.g4 { grid-template-columns: 1fr; gap: 12px; }
     .hero-copy { text-align: right; }
@@ -232,7 +244,7 @@
       <p>Expert solar panel installation for homes and businesses. Fast, efficient, and done right the first time by the most trusted installers in the market.</p>
       <div class="ctas">
         <a class="btn" href="#book">Book an Installation</a>
-        <a class="call" href="tel:+639187171111"><i><svg width="20" height="20" viewBox="0 0 24 24" fill="#fff"><path d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.25 11.4 11.4 0 0 0 3.6.57 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.46.57 3.6a1 1 0 0 1-.25 1z"/></svg></i>0918 717 1111</a>
+        <a class="call" href="tel:+639187171111"><i><svg width="20" height="20" viewBox="0 0 24 24" fill="#fff"><path d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.25 11.4 11.4 0 0 0 3.6.57 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.46.57 3.6a1 1 0 0 1-.25 1z"/></svg></i>+63 918 717 1111</a>
       </div>
     </div>
     <div class="accept"><span>We Accept</span><img src="images/pagibig.svg" alt="Pag-IBIG Fund" height="40"><img src="images/sss.svg" alt="SSS" height="40"><img src="images/homecredit.png" alt="Home Credit" height="40"><img src="images/gcash.svg" alt="GCash" height="40"></div>
@@ -353,8 +365,8 @@
   <div class="wrap">
     <p class="eyebrow">Trusted by Homes, Farms, Businesses, and LGUs</p>
     <!-- DRAFT: sample client logos, replace with real clients (with permission) -->
-    <div class="logos">
-      <div class="lg"><img src="images/surigao.png" alt="" width="40" height="40">City Government<br>of Surigao</div>
+    <div class="marquee"><div class="logos">
+      <div class="lg"><img src="images/surigao.png" alt="" width="40" height="40">City Government of Surigao</div>
       <div class="lg"><svg viewBox="0 0 24 24"><path d="M5 19c0-8 6-14 15-14 0 9-6 15-14 15"/><path d="M5 19l8-8"/></svg>Kibawe Farm</div>
       <div class="lg"><svg viewBox="0 0 24 24"><path d="M3 11l9-7 9 7"/><path d="M5 10v10h14V10"/><path d="M10 20v-6h4v6"/></svg>Greenfield Subdivision HOA</div>
       <div class="lg"><svg viewBox="0 0 24 24"><path d="M12 21V8"/><path d="M12 8c-3 0-4-2-4-5 3 0 4 2 4 5zm0 0c3 0 4-2 4-5-3 0-4 2-4 5zM12 14c-3 0-4-2-4-5 3 0 4 2 4 5zm0 0c3 0 4-2 4-5-3 0-4 2-4 5z"/></svg>Bukidnon Agri Cooperative</div>
@@ -364,7 +376,7 @@
       <div class="lg"><svg viewBox="0 0 24 24"><path d="M4 5c3-1 6-1 8 1 2-2 5-2 8-1v14c-3-1-6-1-8 1-2-2-5-2-8-1z"/><path d="M12 6v14"/></svg>St. Joseph Academy</div>
       <div class="lg"><svg viewBox="0 0 24 24"><path d="M3 12c4-6 11-6 15 0-4 6-11 6-15 0z"/><path d="M18 12l3-3v6z"/><circle cx="8" cy="11" r="1"/></svg>Macajalar Fishing Corp.</div>
       <div class="lg"><svg viewBox="0 0 24 24"><path d="M4 21V5l8-3v19M12 9h8v12M7 8h2M7 12h2M7 16h2M15 13h2M15 17h2"/></svg>Northgate Commercial Center</div>
-    </div>
+    </div></div>
   </div>
 </section>
 </main>
@@ -399,6 +411,9 @@
   // reveal cards as they scroll into view
   document.documentElement.classList.add('js');
   const io = new IntersectionObserver(es => es.forEach(e => { if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); } }), { threshold: .15 });
+  // duplicate client logos so the marquee loops seamlessly
+  const logos = document.querySelector('.logos');
+  logos.insertAdjacentHTML('beforeend', logos.innerHTML.replace(/<div class="lg"/g, '<div class="lg" aria-hidden="true"'));
   document.querySelectorAll('.card, .badge-card').forEach(c => {
     c.classList.add('rv');
     c.style.setProperty('--d', [...c.parentNode.children].indexOf(c));
