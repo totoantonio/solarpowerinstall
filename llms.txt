@@ -12,7 +12,7 @@
 - Phone: 0918 717 1111 (+63 918 717 1111)
 - Email: install@solarheandsons.com
 - Hours: Monday to Saturday, 8:00 AM to 5:00 PM
-- Panels supplied by sister company Fil Solar Depot: https://totoantonio.github.io/websiteproject/
+- Panels supplied by sister company Fil Solar Depot: https://totoantonio.github.io/FilSolarDepot/
 
 ## Pages
 - [Home](https://totoantonio.github.io/solarpowerinstall/): services, how it works, booking form, FAQ
